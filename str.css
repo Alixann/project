@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: aliceblue;
+  }
+  
+  .page {
+    display: flex;
+    margin: 20px auto;
+    width: 1600px;
+    padding: 5px;
+  }
+  
+  .container {
+    background-color: #EFF6FF;
+    margin: 2rem 4rem;
+  }
+  
+  .img {
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #255A9B;
+  
+  }
+  
+  .post-title{
+    font-size: 1rem;
+  }
+  
+  .media{
+    margin: top 50px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+    margin: 10px 1px;
+  }
+  
+  .facebook{
+    background-color: #255A9B;
+    justify-content: space-between;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-right: 35px;
+    cursor: pointer;
+  }
+  .Linkedln{
+    background-color: #0076B6;
+    justify-content: space-between;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+.input-dialog{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+.input{
+ width: 150px;
+}
+  
+  #someText {
+    display: flex;
+    justify-content: center;
+        padding: 10px;
+        align-items: center;
+        justify-content: flex-start
+        
+     }
+     #someText:before {
+      content: "";
+      width: 100px;
+      height: 1px;
+      background-color: #a5a5a5;
+      margin-left: 60px;
+      
+     }
+     #someText:after { 
+      content: "";
+      width: 100px;
+      height: 1px;
+      background-color: #a5a5a5;
+      
+     }
+  .post-title2{
+    font-size: 20px;
+    color: #255A9B;
+    text-align: left;
+    margin: 20px 0px;
+  }
+  ul {
+    position: initialS;
+    display: flex;
+    flex-direction: row;
+}
+  .create{
+    background-color: #3698FB;
+    justify-content: space-between;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 20px 0px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .okno{
+    background-color: #fdfeff;
+    justify-content: space-between;
+    box-shadow: 3px 4px 5px rgb(201, 201, 201);
+    border: none;
+    border-radius: 5px;
+    text-align: justify;
+    color: rgb(92, 92, 92);
+    padding: 10px;
+    margin: 20px 0px;
+  }
+
+
+ul{
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  margin-bottom: 5px;
+}
